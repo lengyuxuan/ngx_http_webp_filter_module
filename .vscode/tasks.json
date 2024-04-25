@@ -1,0 +1,14 @@
+{
+  "tasks": [
+    {
+      "label": "make",
+      "command": "make",
+      "args": ["-j", "7"],
+			"options": {
+				"cwd": "/app/nginx-1.22.1"
+			}
+    }
+  ],
+  "version": "2.0.0"
+}
+
