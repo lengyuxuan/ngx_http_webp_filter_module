@@ -33,7 +33,12 @@
     "streambuf": "c",
     "initializer_list": "c",
     "deque": "c",
-    "vector": "c"
+    "vector": "c",
+    "gif_lib.h": "c",
+    "encode.h": "c",
+    "errno.h": "c",
+    "libgif.h": "c",
+    "compare": "c"
   },
   "C_Cpp.default.compilerPath": "/usr/bin/gcc",
 }

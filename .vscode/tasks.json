@@ -1,12 +1,21 @@
 {
   "tasks": [
     {
-      "label": "make",
+      "label": "make nginx",
       "command": "make",
       "args": ["-j", "7"],
 			"options": {
 				"cwd": "/app/nginx-1.22.1"
 			}
+    },
+    {
+      "label": "make main",
+      "command": "make",
+      "group": "build",
+      "type": "process",
+      "isBuildCommand": true,
+      "echoCommand": true,
+      "hide": true
     }
   ],
   "version": "2.0.0"
